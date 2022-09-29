@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 
+### Primary
+
+- Dark cyan: hsl(158, 36%, 37%)
+- Cream: hsl(30, 38%, 92%)
+
+### Neutral
+
+- Very dark blue: hsl(212, 21%, 14%)
+- Dark grayish blue: hsl(228, 12%, 48%)
+- White: hsl(0, 0%, 100%)
+
+FONTS
+font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif;
+*/
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-size: 14px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main {
+    width: 35%;
+    min-width: 520px;
+    height: 55vh;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    box-sizing: border-box;
+}
+.first {
+    width: 100%;
+    height: 100%;
+}
+.second {
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+}
+.picture {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+}
+.uno-p {
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-size: 10px;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+.dos-p {
+    color: hsl(212, 21%, 14%);
+    font-family: 'Fraunces', serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+.tres-p {
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    margin-bottom: 30px;
+    color: hsl(228, 12%, 48%);
+}
+.cuatro {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.cuatro-one {
+    font-size: 30px;
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+}
+.cuatro-two {
+    color: hsl(228, 12%, 48%);
+}
+.linki {
+    background-color: hsl(158, 36%, 37%);
+    padding: 12px;
+    color: #fff;
+    text-decoration: none;
+}
