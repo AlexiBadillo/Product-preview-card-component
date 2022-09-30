@@ -94,4 +94,13 @@ body {
     padding: 12px;
     color: #fff;
     text-decoration: none;
+    display: block;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+}
+.linki:hover {
+    background-color: hsl(159, 37%, 19%);
 }
