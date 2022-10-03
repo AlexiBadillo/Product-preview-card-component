@@ -112,7 +112,7 @@ body {
     .main {
         width: 90%;
         height: 90vh;
-        min-width: 340px;
+        min-width: 320px;
         border-radius: 10px;
         display: grid;
         grid-template-columns: 1fr;
@@ -124,6 +124,7 @@ body {
     .picture-movil {
         display: block;
         width: 100%;
+        min-height: 250px;
         max-height: 300px;
         border-radius: 10px 10px 0 0;
     }
